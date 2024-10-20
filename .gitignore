@@ -396,3 +396,30 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# dependencies
+/Client/.vscode
+/Client/node_modules
+/Client/.pnp
+/Client/.pnp.js
+
+# testing
+/Client/coverage
+
+# production
+/Client/build
+
+# misc
+/Client/frontend/.DS_Store
+/Client/frontend/.env.local
+/Client/frontend/.env.development.local
+/Client/frontend/.env.test.local
+/Client/frontend/.env.production.local
+/Client/frontend/.env
+
+/Client/frontend/npm-debug.log*
+/Client/frontend/yarn-debug.log*
+/Client/frontend/yarn-error.log*
+
+/Client/frontend/-.git
+/Client/frontend/-.gitignore
